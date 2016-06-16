@@ -1,1 +1,1 @@
-Solutions for NodeSchool Learnyounode
+Solutions for NodeSchool Learnyounode (Osaka NodeSchool June 16)
