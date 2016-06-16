@@ -25,7 +25,6 @@ var server = http.createServer(function (request, response) {
     } else if (request.url.indexOf('/api/unixtime') > -1) {
         result = unixtime(time);
     }
-
     if (result) {
         response.writeHead(200, {'Content-Type': 'applicatoin/json'});
         response.end(JSON.stringify(result));
